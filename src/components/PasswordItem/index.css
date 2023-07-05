@@ -1,0 +1,83 @@
+.red {
+  background-color: #b91c1c;
+}
+.blue {
+  background-color: #0ea5e9;
+}
+.green {
+  background-color: #10b981;
+}
+.light-green {
+  background-color: #14b8a6;
+}
+.yellow {
+  background-color: #f59e0b;
+}
+.orange {
+  background-color: #f97316;
+}
+
+.passwordItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  border-radius: 4px;
+  width: 100%;
+  padding: 16px 13px 13px 12px;
+  margin-bottom: 16px;
+}
+.details-container {
+  display: flex;
+  align-items: center;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.initial {
+  color: wheat;
+  font-size: 16px;
+  margin: 0;
+}
+.text {
+  color: white;
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.stars-image {
+  width: 100px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+@media (min-width: 768px) {
+  .passwordItem {
+    width: 32%;
+    margin-right: 16px;
+  }
+}
+@media (min-width: 900px) {
+  .passwordItem {
+    width: 28%;
+  }
+}
+@media (min-width: 1200px) {
+  .passwordItem {
+    width: 24%;
+  }
+}

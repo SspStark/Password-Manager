@@ -58,7 +58,7 @@ class PasswordManager extends Component {
     }))
   }
 
-  passwordInput = event => this.setState({password: event.target.values})
+  passwordInput = event => this.setState({password: event.target.value})
 
   usernameInput = event => this.setState({username: event.target.value})
 

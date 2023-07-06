@@ -1,4 +1,4 @@
-## [Password Manager](https://ssppwdmanager.ccbp.tech/)
+# [Password Manager](https://ssppwdmanager.ccbp.tech/)
 
 ### Refer to the image below:
 
